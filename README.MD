@@ -1,4 +1,5 @@
-# Azure IoT Time Series Insights IoT Summit 2020 Hands on Lab
+# IoT Summit 2020 Hands on Lab: Azure IoT Time Series Insights Preview
+
 -----------------------------------------
 ![TSI Logo](https://azure-samples.github.io/azureiotlabs/timeseriesinsights/images/timeseriesinsights.jpg)
 
