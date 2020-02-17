@@ -1,10 +1,10 @@
 ## Step 1: Create an Event Hub and begin data ingestion
 
-Azure IoT Time Series Insights preview supports both IoT Hub and Event Hubs as event sources. In this lab we'll be setting up an Event Hub and leverage a SPA client to generate and push data to the hub.
+Azure IoT Time Series Insights preview supports both IoT Hub and Event Hubs as event sources. In this lab we'll be setting up an Event Hub and leverage a SPA client to generate and push wind mill sensor data to the hub.
 
 ### Create a resource group
 
-1. Create an Azure resource group to collect and manage all the application resources we will be provisioning and using during the lab.  
+1. Create an Azure resource group (RG) to collect and manage all the application resources we will be provisioning and using during the lab and for ease of resource clean-up once the lab concludes. You may also re-use an existing RG. 
 \
 ![Resource Group](assets/01_Create_Resource_Group.png)
 
