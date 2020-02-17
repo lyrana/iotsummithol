@@ -9,11 +9,11 @@ Time Series Insights is designed for ad hoc data exploration and operational ana
 
 ## Introduction and Outline
 
-You are a consultant for Contoso Wind Farm--a utility company in the Northeast with a diverse energy portfolio. They operate a dozen wind farms and have tasked you with creating a cloud storage and analytics solution that includes a user-interface for the operations hub managers. A cloud gateway device has been configured to ingest data from a few wind mills at just four of their sites so that you can get started on a proof of concept.
+You are a consultant for Contoso Wind Farm--a utility company in the Northeast with a diverse energy portfolio. Contoso Wind Farm operates a dozen wind farms, and they have tasked you with creating a cloud storage and analytics solution that includes a user-interface for the operations hub managers. A cloud gateway device has already been configured to ingest data from a handful of wind mills at four of their farms so that you can get started on a proof of concept.
 
 You will go through the following steps:
 
-1. [Survey](step-001-survey/)
+1. [Get to Know You Survey](step-001-survey/)
 2. [Event Hub Set-Up and Device Simulation](step-002-hub-and-data-sim/)
 3. [TSI Environment Set-Up](step-003-tsi-env-creation/)
 4. [TSI Explorer Overview](step-004-explorer-intro/)
