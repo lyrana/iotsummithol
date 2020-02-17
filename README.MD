@@ -1,22 +1,23 @@
 # Azure IoT Time Series Insights IoT Summit 2020 Hands on Lab
 -----------------------------------------
 
-Welcome to the lab! Azure IoT Time Series Insights Azure Preview is an end-to-end platform-as-a-service (PaaS) offering. You can use it to collect, process, store, analyze, and query data at Internet of Things (IoT) scale--data that's highly contextualized and optimized for time series.
+Welcome to the lab! Azure IoT Time Series Insights (TSI) Preview is an end-to-end platform-as-a-service (PaaS) offering. You can use it to collect, process, store, analyze, and query data at Internet of Things (IoT) scale--data that's highly contextualized and optimized for time series.
 
 Time Series Insights is designed for ad hoc data exploration and operational analysis. It's an extensible and customized service offering that meets the broad needs of industrial IoT deployments. 
 
-## Introduction and Scenario
+## Introduction and Outline
 
-## Outline
+You are a consultant for Contoso Wind Farm--a utility company in the Northeast with a diverse energy portfolio. They operate a dozen wind farms and have tasked you with creating a cloud storage and analytics solution that includes a user-interface for the operations hub managers. A cloud gateway device has been configured to ingest data from a few wind mills at just four of their sites so that you can get started on a proof of concept.
 
-In this workshop, you will be building Contoso Art Shipping's IoT solution.
+You will go through the following steps:
 
-1. [Connecting an asset tracking device to Azure IoT](step-001-connecting-a-device/)
-2. [Setting up a data pipeline](step-002-setting-up-data-pipeline/)
-3. [Anomaly detection](step-003-anomaly-detection/)
-4. [Map visualization - Where are my parcels?](step-004-map-visualization/)
-
-The last part will showcase how to feed your insights (we'll learn how to trigger events on sudden temperature variations on our asset tracking devices) into Contoso's ERP and mobile application. It will be shown through a demo, as time constraints don't allow for this part to be included in this one-day workshop.
+1. [Survey](step-001-survey/)
+2. [Event Hub Set-Up and Device Simulation](step-002-hub-and-data-sim/)
+3. [TSI Environment Set-Up](step-003-tsi-env-creation/)
+4. [TSI Explorer Overview](step-004-explorer-intro/)
+5. [Time Series Model (TSM) Creation](step-005-tsm-creation/)
+6. [Query and Chart Time Series](step--006-charting)
+7. 
 
 ## Legal Notices
 
@@ -34,7 +35,6 @@ Privacy information can be found at [https://privacy.microsoft.com/en-us/](https
 
 Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
 or trademarks, whether by implication, estoppel or otherwise.
-
 
 
 **Step 1: Create an Azure Time Series Insights Preview environment**
