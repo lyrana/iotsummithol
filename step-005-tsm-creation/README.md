@@ -12,3 +12,9 @@ In this section, you will add time series model entities to contextualize your I
 
 1. In the Hierarchies section, select “+ Add”.
 
+A modal will open. Add the following values:
+
+Name: Delivery Routes.
+Levels:
+Name the first level “Route Name”.
+Click “+ Add Level” and add another sub-level named “ParcelID”.
