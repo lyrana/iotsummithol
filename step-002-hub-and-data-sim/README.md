@@ -14,15 +14,17 @@ Azure IoT Time Series Insights preview supports both IoT Hub and Event Hubs as e
 
 1. Enter **Resource group name**,  Select **subscription** and **region**. Click on **Review + Create**, and after reviewing, click on **Create**.
 
-    > **_NOTE:_**  
-    >
-    > * **Resource Group Name**: Use name of your choice.  
-    > * **Region**: During public preview, IoT Plug and Play is available in the North Europe, Central US, and Japan East regions. Although we are only creating a resource group at this stage, please make sure you create it in one of these regions to avoid potential mistakes later on.
-
 ![Create Resource Group Submit](../assets/03_Create_Resource_Group_Submit.png)
 
 ### Create an Event Hubs namespace and an Event Hub
 
+1. On the upper left hand corner of the Azure portal click the tool bar and select Create a resource
+
+![Create a Resource](../assets/04_Create_Resource.png)
+
+1. Search the marketplace for "Event Hubs" and click create
+
+1. When you set-up Event Hubs first you create the namespace collection, then you create a hub instance. Fill out the following to create your namespace:
 
 
 
