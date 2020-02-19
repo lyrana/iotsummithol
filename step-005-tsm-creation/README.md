@@ -77,12 +77,24 @@ Navigate back to the explorer and copy the Type ID of the Default Type:
 
 In the Instances.json file, find and replace all instances of "tTBD" with the GUID, being sure that the ID is enclosed in just one pair of ""
 
-Next we will copy the two GUIDs of both hierarchies and first arrange them into the following format before performing the replace all: 
+Next we will copy the two GUIDs of both hierarchies and use another text editor to get them into following format before doing the replace all: "<GUID>", "<GUID>"
 
 
-In the explorer click on the Hierarchies tab and pull up the JSON for both hierarchies. Note that if the previous pop-up window was still open it will append the hierarchy JSON to the type JSON.  
+In the explorer click on the Hierarchies tab and copy both hierarchy IDs and use any editor to insert the comma between the GUIDs. Copy that entire value and replace all instances of "hTBD":
 
+![Image](../07_TSM_Authoring.png)
 
+Save your updated file and in the explore go to the Instances tab and select Upload JSON:
+
+![Image](../08_TSM_Authoring.png)
+
+Choose your Instances.JSON file and click upload:
+
+![Image](../09_TSM_Authoring.png)
+
+Your data is now modeled in both a physical and semantic hierarchy, navigate back to the analyze tab and expand each hierarchy to view the topology:
+
+![Image](../10_TSM_Authoring.png)
 
 
 
