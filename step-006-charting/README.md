@@ -10,8 +10,8 @@ Time Series Insights offers 3 query APIs: GetEvents, GetSeries and AggregateSeri
 To query your data, expand your model, select an instance and click on the instance itself to see which variables are available. Use the “Wind Farm – Physical” hierarchy to select the Outdoor Temperature tag from WM1 in Bristol and show the Value. 
 
 
- [!TIP]
-> Make sure you’ve selected a region in the availability chart where there is data available for query. 
+       > [!TIP]
+       >  Make sure you’ve selected a region in the availability chart where there is data available for query. 
 
-![Query 1](query_01.png)
+![Query 1](../assets/query_01.png)
 
