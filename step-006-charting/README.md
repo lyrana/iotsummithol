@@ -1,6 +1,6 @@
 ## Step 6: Chart and Query Data
 
-So now that we’ve created a model for our data, we can start querying it via the TSI Explorer. 
+So now that we’ve created a model for our data, we can start querying it via the TSI Explorer.
 
 Time Series Insights offers 3 query APIs: GetEvents, GetSeries and AggregateSeries. 
 1. GetEvents lets you query for raw events for one TSID over a selected search span. 
@@ -10,8 +10,45 @@ Time Series Insights offers 3 query APIs: GetEvents, GetSeries and AggregateSeri
 To query your data, expand your model, select an instance and click on the instance itself to see which variables are available. Use the “Wind Farm – Physical” hierarchy to select the Outdoor Temperature tag from WM1 in Bristol and show the Value. 
 
 
-       > [!TIP]
-       >  Make sure you’ve selected a region in the availability chart where there is data available for query. 
+       [!TIP]
+       Make sure you’ve selected a region in the availability chart where there is data available for query. 
 
 ![Query 1](../assets/query_01.png)
 
+You should see your time series displayed in the chart: 
+When you display a time series, Time Series Insights makes an AggregateSeries call. Change the search span and intervals to see different results from the query. 
+
+
+![Query 2](../assets/query_02.png)
+
+Brush over a region and click Explore Events to make a GetEvents call and see the raw data for the selected region:
+
+![Query 3](../assets/query_03.png)
+
+![Query 4](../assets/query_04.png)
+
+Create a time-shifted version of the trendline you just plotted by selecting the “Explorations” icon (shaped like a lighting bolt) to find any recurring patterns in the data: 
+
+
+![Query 5](../assets/query_05.png)
+
+
+![Query 6](../assets/query_06.png)
+
+Change the chart type to view the temperature data as a heatmap:
+
+![Query 7](../assets/query_06.png)
+
+![Query 8](../assets/query_06.png)
+
+Next, add another time series, Outdoor Pressure from WM1 in Bristol. 
+
+![Query 9](../assets/query_09.png)
+
+Use the scatter plot option to view the correlation between the Outdoor Temperature and the Atmospheric Pressure: 
+
+![Query 10](../assets/query_10.png)
+
+![Query 11](../assets/query_11.png)
+
+Brush over a region to show some common statistics for a region:
