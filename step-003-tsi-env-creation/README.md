@@ -47,5 +47,10 @@ Timestamp property|This value is used to identify the Timestamp property in your
 
 1. In the overview pane you will see the link to your TSI explorer, the user-interface that ships with your PaaS. Click on your explorer URL. 
 
-![Explorer Linkd](../assets/createTsiEnvironment05.png)
+![Explorer Link](../assets/createTsiEnvironment05.png)
+
+1. Coming to your TSI explorer, your default view should look similar to the image below:
+![Explorer Landing](../assets/createTsiEnvironment06.png)
+
+1. Continue to the [next step](../step-004-explorer-intro) for an overview of the explorer
 
