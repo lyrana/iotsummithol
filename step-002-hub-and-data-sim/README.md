@@ -59,7 +59,7 @@ Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
 1. Click on the newly created Send policy and 
 
-1. Copy [this link](https://tsiclientsample.azurewebsites.net/windFarmGen.html) and open in a separate browser window, now toggle back to the Azure portal and click on the Send policy. Copy the Connection string–primary key to your clipboard. Paste the connection string into the input field. NOTE: When using the Chromium browser with many tabs open there is a slight risk that the ajax calls will be throttled by the browser itself if it has insufficient recources. If you experience a failure message try using a different browser such as Edge to push data.
+1. Copy [this link](https://tsiclientsample.azurewebsites.net/windFarmGen.html) to the TSI Sample Wind Farm Pusher client app and open the link in a separate browser window. Toggle back to the Azure portal, and click on your newly created Send policy. Copy the "Connection string–primary key" to your clipboard. Paste the connection string into the input field in the TSI Sample Wind Farm Pusher. NOTE: When using the Chromium browser with many tabs open there is a slight risk that the ajax calls will be throttled by the browser itself if it has insufficient recources. If you experience a failure message try using a different browser such as Edge to push data.
 
 ![Client App](../assets/11_Wind_Farm_Client.png)
 
