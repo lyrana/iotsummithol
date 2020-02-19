@@ -63,3 +63,5 @@ Add the values of Outdoor Temperature and Atmospheric Pressure from WM2 in Brist
 To export data, use the the “More actions” button. Some options include downloading the data as a CSV and generating a query to connect to PowerBI. 
 
 ![Query 14](../assets/query_14.png)
+
+To try out the Power BI Connector, you must have the desktop version of Power BI installed. If you do, see here for steps on how to use it.
