@@ -82,19 +82,19 @@ Next we will copy the two GUIDs of both hierarchies and use another text editor 
 
 In the explorer click on the Hierarchies tab and copy both hierarchy IDs and use any editor to insert the comma between the GUIDs. Copy that entire value and replace all instances of "hTBD":
 
-![Image](../07_TSM_Authoring.png)
+![Image](../assets/07_TSM_Authoring.png)
 
 Save your updated file and in the explore go to the Instances tab and select Upload JSON:
 
-![Image](../08_TSM_Authoring.png)
+![Image](../assets/08_TSM_Authoring.png)
 
 Choose your Instances.JSON file and click upload:
 
-![Image](../09_TSM_Authoring.png)
+![Image](../assets/09_TSM_Authoring.png)
 
 Your data is now modeled in both a physical and semantic hierarchy, navigate back to the analyze tab and expand each hierarchy to view the topology:
 
-![Image](../10_TSM_Authoring.png)
+![Image](../assets/10_TSM_Authoring.png)
 
 Continue to the [next step](../step-006-charting) to chart and query sensor values.
 
