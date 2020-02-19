@@ -96,7 +96,7 @@ Your data is now modeled in both a physical and semantic hierarchy, navigate bac
 
 ![Image](../10_TSM_Authoring.png)
 
-
+Continue to the [next step](../step-006-charting) to chart and query sensor values.
 
 
 
