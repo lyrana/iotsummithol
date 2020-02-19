@@ -20,7 +20,7 @@ Enable Warm Store?|Select Yes to enable warm store.
 Data Retention (days)|Choose the default option of 7 days
 
 
-1. Click on “Next: Event Source” to establish a connection between your Event Hub and TSI:
+2. Click on “Next: Event Source” to establish a connection between your Event Hub and TSI:
 
 ![Create an environment 03](../assets/createTsiEnvironment03.png)
 
@@ -37,20 +37,20 @@ Event Hub access policy name|Select the name of the Listen policy created in Ste
 Event Hub consumer group|Select $Default. Note that if you intend to Listen via another app or service you should have unique constumer groups for each listener.
 Timestamp property|This value is used to identify the Timestamp property in your incoming telemetry data. Leave this box empty. When left empty, Time Series Insights will default to the message enqueued timestamp set by IoT Hub or Event Hub. This is sufficient for the lab.
 
-1. Click on “Review + create,” review the values entered and click “Create”
+3. Click on “Review + create,” review the values entered and click “Create”
 
-1. It will take up to a coupld minutes for your deployment to complete. When ready, navigate to your new Time Series Insights resource, it's typically the third resource down in the list of succssful deployments:
+4. It will take up to a coupld minutes for your deployment to complete. When ready, navigate to your new Time Series Insights resource, it's typically the third resource down in the list of succssful deployments:
 
 ![Deployment](../assets/createTsiEnvironment04.png)
 
-1. You should have access to your environment by default. To verify, select "Data Access Policies" under "Settings." If you do not see your credentials listed, grant yourself access by clicking "Add" and searching for your identity.
+5. You should have access to your environment by default. To verify, select "Data Access Policies" under "Settings." If you do not see your credentials listed, grant yourself access by clicking "Add" and searching for your identity.
 
-1. In the overview pane you will see the link to your TSI explorer, the user-interface that ships with your PaaS. Click on your explorer URL. 
+6. In the overview pane you will see the link to your TSI explorer, the user-interface that ships with your PaaS. Click on your explorer URL. 
 
 ![Explorer Link](../assets/createTsiEnvironment05.png)
 
-1. Coming to your TSI explorer, your default view should look similar to the image below:
+7. Coming to your TSI explorer, your default view should look similar to the image below:
 ![Explorer Landing](../assets/createTsiEnvironment06.png)
 
-1. Continue to the [next step](../step-004-explorer-intro) for an overview of the explorer
+8. Continue to the [next step](../step-004-explorer-intro) for an overview of the explorer
 
