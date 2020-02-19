@@ -52,3 +52,14 @@ Use the scatter plot option to view the correlation between the Outdoor Temperat
 ![Query 11](../assets/query_11.png)
 
 Brush over a region to show some common statistics for a region:
+
+![Query 12](../assets/query_12.png)
+
+Add the values of Outdoor Temperature and Atmospheric Pressure from WM2 in Bristol. Use the Lane changers to move the time series from WM1 and WM2 into the same lanes:
+
+
+![Query 13](../assets/query_13.png)
+
+To export data, use the the “More actions” button. Some options include downloading the data as a CSV and generating a query to connect to PowerBI. 
+
+![Query 14](../assets/query_14.png)
