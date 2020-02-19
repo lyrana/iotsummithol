@@ -67,3 +67,5 @@ Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
 ![Hub metrics](../assets/10_Hub_Metrics.png)
 
+Continue onto the [next step](step-003-tsi-env-creation)
+
