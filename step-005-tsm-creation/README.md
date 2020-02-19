@@ -14,7 +14,7 @@ In this section, you will add time series model entities to contextualize your I
 
 A modal will open. Add the following values:
 
-Name: Delivery Routes.
+Name: Wind Farm - Physical
 Levels:
 Name the first level “Route Name”.
 Click “+ Add Level” and add another sub-level named “ParcelID”.

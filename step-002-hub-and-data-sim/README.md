@@ -61,6 +61,8 @@ Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
 1. Copy [this link](https://tsiclientsample.azurewebsites.net/windFarmGen.html) to the TSI Sample Wind Farm Pusher client app and open the link in a separate browser window. Toggle back to the Azure portal, and click on your newly created Send policy. Copy the "Connection string–primary key" to your clipboard. Paste the connection string into the input field in the TSI Sample Wind Farm Pusher. NOTE: When using the Chromium browser with many tabs open there is a slight risk that the ajax calls will be throttled by the browser itself if it has insufficient recources. If you experience a failure message try using a different browser such as Edge to push data.
 
+After clicking start a JSON file is downloaded. If you need to grant the browser permission to download this file do that now and then re-click start. This file has the simulated time series' data model and we will use it in a future step to bulk-provision our time series instances.
+
 ![Client App](../assets/11_Wind_Farm_Client.png)
 
 1. Navigate back to your Event Hub, the metrics on the overview tab should now show data flowing into the hub:
