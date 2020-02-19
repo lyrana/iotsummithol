@@ -26,20 +26,43 @@ TSI preview supports both Azure IoT Hub and Events Hubs as event sources. Up to 
 
 1. Search the marketplace for "Event Hubs" and click create
 
-1. When you set-up Event Hubs first you create the namespace collection, then you create a hub instance. Fill out the form with the following parameters:
+1. When you set-up Event Hubs first you create the hub namespace, then you instantiate a hub. Fill out the form with the following parameters:
 
 **Parameter**|**Action**
 -----|-----
-Name|Enter a unique name for the Azure Time Series Insights Preview environment.
-Pricing tier|Enter the subscription where you want to create the Azure Time Series Insights Preview environment. A best practice is to use the same subscription as the rest of the IoT resources that are created by the device simulator.
-Subscription|Select an existing resource group or create a new resource group for the Azure Time Series Insights Preview environment resource. A resource group is a container for Azure resources. A best practice is to use the same resource group as the other IoT resources that are created by the device simulator.
-Resource group|Select a datacenter region for your Azure Time Series Insights Preview environment. To avoid additional latency, it's best to create your Azure Time Series Insights Preview environment in the same region as your IoT Hub created by the device simulator.
-Location|Select PAYG (pay-as-you-go). This is the SKU for the Azure Time Series Insights Preview product.
-Property ID|Enter a value that uniquely identifies your time series instance. The value you enter in the Property ID box is immutable. You can't change it later. For this tutorial, enter iothub-connection-device-id. To learn more about Time Series ID, see Best practices for choosing a Time Series ID.
+Name|Enter a unique name for the Event Hubs Namespace.
+Pricing tier|Select Standard (20 Consumer groups, 1000 Brokered connections).
+Subscription|Select the subscription you're using for the lab.
+Resource group|Select the RG you created or re-used from the previous step.
+Location|Select your RG location. Note that as a best practice it's recommended to house your event source and TSI environment in the same location. 
 Throughput Units|Enter a globally unique name for a new storage account.
 Enable Auto-Inflate|Check the checkbox to enable.
 Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
+![Create a Hub Namespace](../assets/05_Create_Hub_Namespace)
+
+1. Once your deployment is complete, navigate to your Event Hubs Namespace and click on Event Hubs:
+
+![Click Event Hubs](../assets/06_Create_Hub)
+
+1. Create an Event Hub with a Parition Count of 4.
+
+![Create a Hub](../assets/07_Create_Hub)
+
+1. Now that your cloud gateway has been created you need to configure access policies and generate a connection string to enable both sending and reading hub telemetry messages. Navigate to your Event Hub and click on Shared access policies:
+
+![Click on Shared access policies](../assets/08_Shared_Policies)
+
+1. Create both a Send policy as well as a Listen policy
+
+![Create Send Policy](../assets/09_Send_Policy)
+
+1. Click on the newly created Send policy and copy the Connection string–primary key to your clipboard.
+
+1. Open [this link](https://tsiclientsample.azurewebsites.net/windFarmGen.html) to the Wind Farm data simulator. Copy the connection string into the input field. Note: When using the Chromium browser with many tabs open there is a slight risk that the ajax calls will be throttled by the browser itself it it has insufficient recources. If you experience this failure message try using a separate browser such as Edge to push data.
+
+1. Navigate back to your Event Hub, the metrics on the overview tab should now show data flowing into the hub:
+
+![Hub metrics](../assets/10_Hub_Metrics)
 
 
-https://tsiclientsample.azurewebsites.net/windFarmGen.html
