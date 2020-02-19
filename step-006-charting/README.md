@@ -15,8 +15,7 @@ To query your data, expand your model, select an instance and click on the insta
 
 ![Query 1](../assets/query_01.png)
 
-You should see your time series displayed in the chart: 
-When you display a time series, Time Series Insights makes an AggregateSeries call. Change the search span and intervals to see different results from the query. 
+You should see your time series displayed in the chart. When you display a time series, Time Series Insights makes an AggregateSeries call. Change the search span and intervals to see different results from the query. 
 
 
 ![Query 2](../assets/query_02.png)

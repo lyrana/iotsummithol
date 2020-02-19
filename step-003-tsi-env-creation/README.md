@@ -1,6 +1,6 @@
 ## Step 3: Create an Azure Time Series Insights Preview environment
 
-1. Click the toolbar in the upper left corner of the poratl and search the Azure marketplace for "Time Series Insights". Click create and configure your TSI environment similar to the sample image below. See the table below the images for more details on each input field.
+1. Click the toolbar in the upper left corner of the portal and search the Azure marketplace for "Time Series Insights". Click create and configure your TSI environment similar to the sample image below. See the table below the images for more details on each input field.
 
 
 ![Create an environment](../assets/createTsiEnvironment.png)
@@ -46,6 +46,8 @@ Timestamp property|This value is used to identify the Timestamp property in your
 5. You should have access to your environment by default. To verify, select "Data Access Policies" under "Settings." If you do not see your credentials listed, grant yourself access by clicking "Add" and searching for your identity.
 
 6. In the overview pane you will see the link to your TSI explorer, the user-interface that ships with your PaaS. Click on your explorer URL. 
+
+NOTE: If your browser prompts you to select a certificate click cancel to close the modal and proceed with the lab.
 
 ![Explorer Link](../assets/createTsiEnvironment05.png)
 
