@@ -68,4 +68,4 @@ To try out the Power BI Connector, you must have the desktop version of Power BI
 
 Some solutions require highly customized applications. We offer a JavaScript SDK for developers building their own front-end applications. Learn more [here](https://github.com/Microsoft/tsiclient).
 
-Continue to section   [next step](../step-003-tsi-env-creation)
+Continue to section   [next step](../step-007-resource-links)
