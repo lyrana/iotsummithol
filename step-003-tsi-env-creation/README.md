@@ -1,6 +1,6 @@
 ## Step 3: Create an Azure Time Series Insights Preview environment
 
-1. Click the toolbar and search the Azure marketplace for Time Series Insights. Click create and set the following parameters:
+1. Click the toolbar in the upper left corner of the poratl and search the Azure marketplace for "Time Series Insights". Click create and configure your TSI environment similar to the sample image below. See the table below the images for more details on each input field.
 
 
 ![Create an environment](../assets/createTsiEnvironment.png)
@@ -20,28 +20,32 @@ Enable Warm Store?|Select Yes to enable warm store.
 Data Retention (days)|Choose the default option of 7 days
 
 
-4. Click on “Next: Event Source” to establish a connection between your Event Hub and TSI:
+1. Click on “Next: Event Source” to establish a connection between your Event Hub and TSI:
+
+![Create an environment 03](../assets/createTsiEnvironment03.png)
 
 **Parameter**|**Action**
 -----|-----
 Create an event source?|Select Yes.
 Name|Enter a unique value for the event source name.
-Source type|Select IoT Hub.
+Source type|Select Event Hub.
 Select a hub|Choose Select existing.
 Subscription|Select the subscription that you're using for the lab.
-IoT Hub name|Select the IoT Hub that was created in a previous step.
-IoT Hub access policy|Select iothubowner.
-IoT Hub consumer group|Select New, enter a unique name, and then select Add. The consumer group must be a unique value in Azure Time Series Insights Preview.
+Event Hub namespace|Select the namespace created in Step 2.
+Event Hub name|Select the hub created in Step 2.
+Event Hub access policy name|Select the name of the Listen policy created in Step 2. 
+Event Hub consumer group|Select $Default. Note that if you intend to Listen via another app or service you should have unique constumer groups for each listener.
 Timestamp property|This value is used to identify the Timestamp property in your incoming telemetry data. Leave this box empty. When left empty, Time Series Insights will default to the message enqueued timestamp set by IoT Hub or Event Hub. This is sufficient for the lab.
 
-![Create an environment](media/createTsiEnvironment.png)
+1. Click on “Review + create,” review the values entered and click “Create”
 
-5. Click on “Review + create”
+1. It will take up to a coupld minutes for your deployment to complete. When ready, navigate to your new Time Series Insights resource, it's typically the third resource down in the list of succssful deployments:
 
-![Review and create](media/review-and-create.png)
+![Deployment](../assets/createTsiEnvironment04.png)
 
-6. Review the values entered and click “Create”
+1. You should have access to your environment by default. To verify, select "Data Access Policies" under "Settings." If you do not see your credentials listed, grant yourself access by clicking "Add" and searching for your identity.
 
-7. Once your deployment is complete, navigate to your new Time Series Insights resource in the Azure portal. You should have access to your environment by default. To verify, select "Data Access Policies" under "Settings." If you do not see your credentials listed, grant yourself access by clicking "Add" and searching for your identity.
+1. In the overview pane you will see the link to your TSI explorer, the user-interface that ships with your PaaS. Click on your explorer URL. 
 
-![Verify access](media/verify-accesss.png)
+![Explorer Linkd](../assets/createTsiEnvironment05.png)
+
