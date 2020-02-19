@@ -37,9 +37,9 @@ Create a time-shifted version of the trendline you just plotted by selecting the
 
 Change the chart type to view the temperature data as a heatmap:
 
-![Query 7](../assets/query_06.png)
+![Query 7](../assets/query_07.png)
 
-![Query 8](../assets/query_06.png)
+![Query 8](../assets/query_08.png)
 
 Next, add another time series, Outdoor Pressure from WM1 in Bristol. 
 
