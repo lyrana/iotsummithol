@@ -35,7 +35,7 @@ Pricing tier|Select Standard (20 Consumer groups, 1000 Brokered connections).
 Subscription|Select the subscription you're using for the lab.
 Resource group|Select the RG you created or re-used from the previous step.
 Location|Select your RG location. Note that as a best practice it's recommended to house your event source and TSI environment in the same location. 
-Throughput Units|Enter a globally unique name for a new storage account.
+Throughput Units|Enter 4.
 Enable Auto-Inflate|Check the checkbox to enable.
 Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
