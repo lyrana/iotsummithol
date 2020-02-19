@@ -49,7 +49,7 @@ Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
 ![Create a Hub](../assets/07_Create_Hub.png)
 
-1. Now that your cloud gateway has been created you need to configure access policies and generate a connection string to enable both sending and reading hub telemetry messages. Navigate to your Event Hub and click on Shared access policies:
+1. Now that your cloud gateway has been created you need to configure access policies and generate a connection string to enable both sending and reading hub telemetry messages. Creating both a Send and Listen policy follows the principle of least privilege. Navigate to your Event Hub and click on Shared access policies:
 
 ![Click on Shared access policies](../assets/08_Shared_Policies.png)
 
@@ -57,12 +57,13 @@ Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
 ![Create Send Policy](../assets/09_Send_Policy.png)
 
-1. Click on the newly created Send policy and copy the Connection string–primary key to your clipboard.
+1. Click on the newly created Send policy and 
 
-1. Open [this link](https://tsiclientsample.azurewebsites.net/windFarmGen.html) to the Wind Farm data simulator. Copy the connection string into the input field. Note: When using the Chromium browser with many tabs open there is a slight risk that the ajax calls will be throttled by the browser itself it it has insufficient recources. If you experience this failure message try using a separate browser such as Edge to push data.
+1. Copy [this link](https://tsiclientsample.azurewebsites.net/windFarmGen.html) and open in a separate browser window, now toggle back to the Azure portal and click on the Send policy. Copy the Connection string–primary key to your clipboard. Paste the connection string into the input field. NOTE: When using the Chromium browser with many tabs open there is a slight risk that the ajax calls will be throttled by the browser itself if it has insufficient recources. If you experience a failure message try using a different browser such as Edge to push data.
+
+![Client App](../assets/11_Wind_Farm_Client.png)
 
 1. Navigate back to your Event Hub, the metrics on the overview tab should now show data flowing into the hub:
 
 ![Hub metrics](../assets/10_Hub_Metrics.png)
-
 
