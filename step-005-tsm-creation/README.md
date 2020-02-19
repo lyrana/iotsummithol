@@ -69,6 +69,24 @@ Default category: Unknown
 
 Click Apply and then click Save.
 
+We will be using the bulk-upload feature to create a time series instance for each of the 111 sensors, assign the default type, and add then to both of the hierarchies. This segment will include some copy and pasting. Open the Instances.json file that was downloaded by the data simulator. If you're using VS Code, you can easily format the JSON: Shft + Alt + F or ctrl + P and type ">Format" then select "Format Document."
+
+Navigate back to the explorer and copy the Type ID of the Default Type:
+
+![Image](../assets/06_TSM_Authoring.png)
+
+In the Instances.json file, find and replace all instances of "tTBD" with the GUID, being sure that the ID is enclosed in just one pair of ""
+
+Next we will copy the two GUIDs of both hierarchies and first arrange them into the following format before performing the replace all: 
+
+
+In the explorer click on the Hierarchies tab and pull up the JSON for both hierarchies. Note that if the previous pop-up window was still open it will append the hierarchy JSON to the type JSON.  
+
+
+
+
+
+
 
 
 
