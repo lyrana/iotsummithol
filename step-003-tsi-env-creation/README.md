@@ -1,25 +1,26 @@
-**Step 1: Create an Azure Time Series Insights Preview environment**
+## Step 3: Create an Azure Time Series Insights Preview environment
 
-1. Sign-in to the Azure portal by using your subscription account.
-2. Select Create a resource > Internet of Things > Time Series Insights.
+1. Click the toolbar and search the Azure marketplace for Time Series Insights. Click create and set the following parameters:
 
-![Create an environment](media/search-the-marketplace.png)
 
-3. In the Create Time Series Insights environment pane, on the Basics tab, set the following parameters:
+![Create an environment](../assets/createTsiEnvironment.png)
+
+![Create an environment 02](../assets/createTsiEnvironment02.png)
 
 **Parameter**|**Action**
 -----|-----
 Environment name|Enter a unique name for the Azure Time Series Insights Preview environment.
-Subscription|Enter the subscription where you want to create the Azure Time Series Insights Preview environment. A best practice is to use the same subscription as the rest of the IoT resources that are created by the device simulator.
-Resource group|Select an existing resource group or create a new resource group for the Azure Time Series Insights Preview environment resource. A resource group is a container for Azure resources. A best practice is to use the same resource group as the other IoT resources that are created by the device simulator.
-Location|Select a datacenter region for your Azure Time Series Insights Preview environment. To avoid additional latency, it's best to create your Azure Time Series Insights Preview environment in the same region as your IoT Hub created by the device simulator.
+Subscription|Select the subscription you're using for the lab.
+Resource group|Select your RG.
+Location|Select a datacenter region for your Azure Time Series Insights Preview environment. To avoid additional latency, it's best to create your Azure Time Series Insights Preview environment in the same region as your IoT or Event Hub created in the previous step.
 Tier|Select PAYG (pay-as-you-go). This is the SKU for the Azure Time Series Insights Preview product.
-Property ID|Enter a value that uniquely identifies your time series instance. The value you enter in the Property ID box is immutable. You can't change it later. For this tutorial, enter iothub-connection-device-id. To learn more about Time Series ID, see Best practices for choosing a Time Series ID.
+Time Series ID Property name| Enter "Id" as this is the TS ID used by the data simulator. Note that the value you select for your TS ID is immutable. You can't change it later.
 Storage account name|Enter a globally unique name for a new storage account.
 Enable Warm Store?|Select Yes to enable warm store.
 Data Retention (days)|Choose the default option of 7 days
 
-4. Click on “Next: Event Source” to establish a connection between your IoT Hub and TSI:
+
+4. Click on “Next: Event Source” to establish a connection between your Event Hub and TSI:
 
 **Parameter**|**Action**
 -----|-----
