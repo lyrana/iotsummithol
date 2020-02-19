@@ -39,23 +39,23 @@ Throughput Units|Enter a globally unique name for a new storage account.
 Enable Auto-Inflate|Check the checkbox to enable.
 Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
-![Create a Hub Namespace](../assets/05_Create_Hub_Namespace)
+![Create a Hub Namespace](../assets/05_Create_Hub_Namespace.png)
 
 1. Once your deployment is complete, navigate to your Event Hubs Namespace and click on Event Hubs:
 
-![Click Event Hubs](../assets/06_Create_Hub)
+![Click Event Hubs](../assets/06_Create_Hub.png)
 
 1. Create an Event Hub with a Parition Count of 4.
 
-![Create a Hub](../assets/07_Create_Hub)
+![Create a Hub](../assets/07_Create_Hub.png)
 
 1. Now that your cloud gateway has been created you need to configure access policies and generate a connection string to enable both sending and reading hub telemetry messages. Navigate to your Event Hub and click on Shared access policies:
 
-![Click on Shared access policies](../assets/08_Shared_Policies)
+![Click on Shared access policies](../assets/08_Shared_Policies.png)
 
 1. Create both a Send policy as well as a Listen policy
 
-![Create Send Policy](../assets/09_Send_Policy)
+![Create Send Policy](../assets/09_Send_Policy.png)
 
 1. Click on the newly created Send policy and copy the Connection string–primary key to your clipboard.
 
@@ -63,6 +63,6 @@ Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
 1. Navigate back to your Event Hub, the metrics on the overview tab should now show data flowing into the hub:
 
-![Hub metrics](../assets/10_Hub_Metrics)
+![Hub metrics](../assets/10_Hub_Metrics.png)
 
 
