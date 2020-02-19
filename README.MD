@@ -19,7 +19,7 @@ You will go through the following steps:
 4. [TSI Explorer Overview](step-004-explorer-intro/)
 5. [Time Series Model (TSM) Creation](step-005-tsm-creation/)
 6. [Query and Chart Time Series](step-006-charting)
-7. 
+7. [Links to Additional Resource](step--007-resource-links/)
 
 ## Legal Notices
 

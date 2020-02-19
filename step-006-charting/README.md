@@ -67,3 +67,5 @@ To export data, use the the “More actions” button. Some options include down
 To try out the Power BI Connector, you must have the desktop version of Power BI installed. If you do, see [here](https://docs.microsoft.com/en-us/azure/time-series-insights/how-to-connect-power-bi) for steps on how to use it.
 
 Some solutions require highly customized applications. We offer a JavaScript SDK for developers building their own front-end applications. Learn more [here](https://github.com/Microsoft/tsiclient).
+
+Continue to section   [next step](../step-003-tsi-env-creation)
