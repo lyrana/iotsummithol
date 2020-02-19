@@ -69,5 +69,5 @@ After clicking start a JSON file is downloaded. If you need to grant the browser
 
 ![Hub metrics](../assets/10_Hub_Metrics.png)
 
-Continue onto the [next step](../step-003-tsi-env-creation)
+Continue on to the [next step](../step-003-tsi-env-creation)
 
