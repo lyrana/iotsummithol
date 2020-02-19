@@ -4,7 +4,7 @@ Azure IoT Time Series Insights preview supports both IoT Hub and Event Hubs as e
 
 ### Create a resource group
 
-1. Create an Azure resource group (RG) to collect and manage all the application resources we will be provisioning and using during the lab and for ease of resource clean-up once the lab concludes. You may also re-use an existing RG. 
+1. Create a new Azure resource group (RG) to collect and manage all the application resources we will be provisioning and using during the lab and for ease of resource clean-up post lab. If you prefer, you can also re-use an existing RG.
 \
 ![Resource Group](assets/01_Create_Resource_Group.png)
 
