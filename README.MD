@@ -3,7 +3,7 @@
 -----------------------------------------
 ![TSI Logo](https://azure-samples.github.io/azureiotlabs/timeseriesinsights/images/timeseriesinsights.jpg)
 
-Welcome to the lab! Azure IoT Time Series Insights (TSI) Preview is an end-to-end platform-as-a-service (PaaS) offering. You can use it to collect, process, store, analyze, and query data at Internet of Things (IoT) scale--data that's highly contextualized and optimized for time series.
+Welcome to the lab! Azure IoT Time Series Insights (TSI) Preview is an end-to-end platform-as-a-service (PaaS) offering. You can use TSI to collect, store, analyze, and query data at Internet of Things (IoT) scale.
 
 Time Series Insights is designed for ad hoc data exploration and operational analysis. It's an extensible and customized service offering that meets the broad needs of industrial IoT deployments. 
 
