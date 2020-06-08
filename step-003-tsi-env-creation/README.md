@@ -39,7 +39,7 @@ Timestamp property|This value is used to identify the Timestamp property in your
 
 3. Click on “Review + create,” review the values entered and click “Create”
 
-4. It will take up to a coupld minutes for your deployment to complete. When ready, navigate to your new Time Series Insights resource, it's typically the third resource down in the list of succssful deployments:
+4. It will take up to a couple of minutes for your deployment to complete. When ready, navigate to your new Time Series Insights resource, it's typically the third resource down in the list of succssful deployments:
 
 ![Deployment](../assets/createTsiEnvironment04.png)
 
