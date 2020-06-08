@@ -49,7 +49,11 @@ Auto-Inflate Maximum Throughput Units|Slide to 12 units.
 
 ![Create a Hub](../assets/07_Create_Hub.png)
 
-1. Now that your cloud gateway has been created you need to configure access policies and generate a connection string to enable both sending and reading hub telemetry messages. Creating both a Send and Listen policy follows the principle of least privilege. Navigate to your Event Hub and click on Shared access policies:
+1. Click on your newly created Event Hub to update its access policy settings.
+
+![Nav to your hub](../assets/07_Navigate_To_Hub.png)
+
+1. You will need to generate a connection string to enable both sending and reading hub telemetry messages. Creating both a Send and Listen policy follows the principle of least privilege. Navigate click on Shared access policies:
 
 ![Click on Shared access policies](../assets/08_Shared_Policies.png)
 
